@@ -10,7 +10,7 @@
     "lastName": "Gonzalez",
     "createdAt": "2022-12-20T13:52:50.848Z",
     "id": "1akjug8lbwacz34",
-    "avatar": "http://localhost:3001/usersImgs/1akjug8lbwacz34.gif",
+    "avatar": "https://picsum.photos/100",
     "updatedAt": "2022-12-22T16:09:50.455Z"
   },
   {
@@ -40,7 +40,7 @@
     "email": "mmmarla@mail.com",
     "createdAt": "2022-12-20T16:42:30.382Z",
     "id": "1akj114glbwgf5nz",
-    "author": "https://ui-avatars.com/api/?name=test for email check no2+Boy",
+    "author": "https://ui-avatars.com/api/?name=test for email check Marla",
     "updatedAt": "2022-12-22T17:14:45.541Z",
     "avatar": "https://picsum.photos/100"
   },
@@ -51,7 +51,7 @@
     "createdAt": "2022-12-22T16:51:54.006Z",
     "id": "1akjqa4lbzbmxw6",
     "author": "https://ui-avatars.com/api/?name=Aron+Boy",
-    "avatar": "http://localhost:3001/usersImgs/1akjqa4lbzbmxw6.gif",
+    "avatar": "https://picsum.photos/100",
     "updatedAt": "2022-12-22T17:02:19.725Z"
   }
 ]
