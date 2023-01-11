@@ -8,8 +8,8 @@ export const dataFolderPath = join(
   dirname(fileURLToPath(import.meta.url)),
   "../data"
 );
-export const usersAvatarImagesPath = join(process.cwd(), "./public/usersImgs");
-export const coverImagesPath = join(process.cwd(), "./public/blogsCoversImgs");
+export const usersAvatarImagesPath = join(process.cwd(), "./public/img");
+export const coverImagesPath = join(process.cwd(), "./public/blogImgs");
 
 const authorsJSONPath = join(dataFolderPath, "authors.json");
 const blogsJSONPath = join(dataFolderPath, "blogs.json");

@@ -23,7 +23,7 @@ filesRouter.post(
       const fileExtensionType = extname(req.file.originalname);
       const fileName = req.params.id + fileExtensionType;
       await saveAuthorsAvatar(fileName, req.file.buffer);
-      const url = `http://localhost:3001/usersImgs/${fileName}`;
+      const url = `http://localhost:3001/img/${fileName}`;
       const authorsArray = await getAuthors();
 
       const oldAuthorIndex = authorsArray.findIndex(
@@ -57,7 +57,7 @@ filesRouter.post(
       const fileExtensionType = extname(req.file.originalname);
       const fileName = req.params.id + fileExtensionType;
       await saveBlogCoverImage(fileName, req.file.buffer);
-      const url = "http://localhost:3001/" + "blogsCoversImgs/" + fileName;
+      const url = "http://localhost:3001/" + "blogImgs/" + fileName;
       const blogsArray = await getBlogs();
       const oldBlogIndex = blogsArray.findIndex(
         (blog) => blog._id === req.params.id
