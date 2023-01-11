@@ -1,0 +1,57 @@
+[
+  {
+    "firstName": "Tamar",
+    "lastName": "Magnificent",
+    "createdAt": "2022-12-20T13:52:21.056Z",
+    "id": "1akjug8lbwacc3k"
+  },
+  {
+    "firstName": "Raul",
+    "lastName": "Gonzalez",
+    "createdAt": "2022-12-20T13:52:50.848Z",
+    "id": "1akjug8lbwacz34",
+    "avatar": "http://localhost:3001/usersImgs/1akjug8lbwacz34.gif",
+    "updatedAt": "2022-12-22T16:09:50.455Z"
+  },
+  {
+    "firstName": "Another",
+    "lastName": "One",
+    "email": "anotherone@mail.com",
+    "createdAt": "2022-12-20T14:47:32.795Z",
+    "id": "1akjxlelbwcbbgc"
+  },
+  {
+    "firstName": "And Another",
+    "lastName": "One",
+    "email": "andanotherone@mail.com",
+    "createdAt": "2022-12-20T14:55:02.216Z",
+    "id": "1akjxo9lbwcky88"
+  },
+  {
+    "firstName": "Homie",
+    "lastName": "Brown",
+    "email": "hmbrown@mail.com",
+    "createdAt": "2022-12-20T16:10:23.425Z",
+    "id": "1akjz4olbwf9ute"
+  },
+  {
+    "firstName": "Marla",
+    "lastName": "Wayans",
+    "email": "mmmarla@mail.com",
+    "createdAt": "2022-12-20T16:42:30.382Z",
+    "id": "1akj114glbwgf5nz",
+    "author": "https://ui-avatars.com/api/?name=test for email check no2+Boy",
+    "updatedAt": "2022-12-22T17:14:45.541Z",
+    "avatar": "https://picsum.photos/100"
+  },
+  {
+    "firstName": "Redicolo",
+    "lastName": "Fiddodiddo",
+    "email": "rfd@mail.com",
+    "createdAt": "2022-12-22T16:51:54.006Z",
+    "id": "1akjqa4lbzbmxw6",
+    "author": "https://ui-avatars.com/api/?name=Aron+Boy",
+    "avatar": "http://localhost:3001/usersImgs/1akjqa4lbzbmxw6.gif",
+    "updatedAt": "2022-12-22T17:02:19.725Z"
+  }
+]
