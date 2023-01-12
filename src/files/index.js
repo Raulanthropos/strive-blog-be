@@ -10,6 +10,9 @@ import {
   writeAuthors,
   writeBlogs,
 } from "../lib/fs-tools.js";
+import { getAuthorsJsonReadableStream } from "../lib/fs-tools.js";
+import { pipeline } from "stream";
+import json2csv from "json2csv";
 
 const { NotFound, Unauthorized, BadRequest } = httpErrors;
 const filesRouter = express.Router();
@@ -81,5 +84,20 @@ filesRouter.post(
     }
   }
 );
+
+filesRouter.get("/authorsCSV", (req, res, next) => {
+  try {
+    res.setHeader("Content-Disposition", "attachment; filename=authors.csv")
+    // SOURCE (readable stream on authors.json) --> TRANSFORM (json into csv) --> DESTINATION (response)
+    const source = getAuthorsJsonReadableStream()
+    const transform = new json2csv.Transform({ fields: ["firstName", "lastName"] })
+    const destination = res
+    pipeline(source, transform, destination, err => {
+      if (err) console.log(err)
+    })
+  } catch (error) {
+    next(error)
+  }
+})
 
 export default filesRouter;
