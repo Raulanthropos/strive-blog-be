@@ -2,12 +2,14 @@
   {
     "firstName": "Tamar",
     "lastName": "Magnificent",
+    "email": "themagnificence@somemail.com",
     "createdAt": "2022-12-20T13:52:21.056Z",
     "id": "1akjug8lbwacc3k"
   },
   {
     "firstName": "Raul",
     "lastName": "Gonzalez",
+    "email": "uttercost@somemail.com",
     "createdAt": "2022-12-20T13:52:50.848Z",
     "id": "1akjug8lbwacz34",
     "avatar": "https://picsum.photos/100",
