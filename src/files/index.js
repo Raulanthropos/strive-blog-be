@@ -90,7 +90,7 @@ filesRouter.get("/authorsCSV", (req, res, next) => {
     res.setHeader("Content-Disposition", "attachment; filename=authors.csv")
     // SOURCE (readable stream on authors.json) --> TRANSFORM (json into csv) --> DESTINATION (response)
     const source = getAuthorsJsonReadableStream()
-    const transform = new json2csv.Transform({ fields: ["firstName", "lastName"] })
+    const transform = new json2csv.Transform({ fields: ["firstName", "lastName", "email"] })
     const destination = res
     pipeline(source, transform, destination, err => {
       if (err) console.log(err)
